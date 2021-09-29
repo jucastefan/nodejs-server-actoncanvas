@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-node": "^0.0.1-security",
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "node": "^16.6.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.12"
+  }
+}
