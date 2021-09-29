@@ -16,7 +16,7 @@ const db = knex({
 });
 
 const app = express();
-const port = process.env.port;
+const port = process.env.PORT;
 
 app.get("/", function (req, res) {
   res.send("work");
