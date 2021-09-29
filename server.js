@@ -19,7 +19,7 @@ const app = express();
 const port = process.env.PORT;
 
 app.get("/", function (req, res) {
-  res.send("work");
+  res.send(`Server is working on ${port}`);
 });
 
 app.use(bodyParser.json());
