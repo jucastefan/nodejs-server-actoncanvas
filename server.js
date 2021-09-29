@@ -18,6 +18,10 @@ const db = knex({
 const app = express();
 const port = process.env.port;
 
+app.get("/", function (req, res) {
+  res.send("work");
+});
+
 app.use(bodyParser.json());
 app.use(cors());
 
